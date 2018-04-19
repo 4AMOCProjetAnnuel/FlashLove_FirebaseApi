@@ -1,0 +1,12 @@
+
+//local api emulation
+firebase serve -p 5000 -o 127.0.0.1
+sudo firebase serve --debug --only hosting,functions
+
+
+//after admin integration
+npm install -g firebase-tools@3.16.0
+
+
+
+gs://flashloveapi.appspot.com/
